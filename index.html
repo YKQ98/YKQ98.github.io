@@ -1,0 +1,145 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Keqiang Yan</title>
+		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href="./css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href="./css/prettyPhoto.css" rel="stylesheet" type="text/css"  media="all" />		
+		<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>	
+	</head>
+	<body>
+		<!---start-wrap--->
+		<!---start-header--->
+	<div class="header">
+		<div class="wrap">
+			<!---start-logo--->
+			<div class="logo">
+				<a href="#">Keqiang Yan</a>
+			</div>
+			<!---End-logo--->
+			<!---start-top-nav--->
+			<div class="top-nav">
+				<ul>
+					<li id="Me" class="active" onclick="func('Me')"><a href="#me" class="scroll">Me</a></li>
+					<li id="Experience" onclick="func('Experience')"><a href="#experience" class="scroll">Experience</a></li>
+					<li id="Research" onclick="func('Research')"><a href="#research" class="scroll">Research</a></li>
+					<li id="Publications" onclick="func('Publications')"><a href="#publications" class="scroll">Publications</a></li>					
+					<li id="Contact" onclick="func('Contact')"><a href="#contact" class="scroll">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			<!---End-top-nav--->
+	     </div>
+	</div>
+	
+	<script> 
+	var lastname = 'Me';
+	function func(name){
+		var div = document.getElementById(name); 
+		div.className = 'active'; 
+		div = document.getElementById(lastname); 
+		div.className = ''; 
+		lastname = name;
+	}
+	function coming_soon()
+	{
+		alert("Coming soon.");
+	}
+	</script> 
+	
+		<!---End-wrap--->
+	<div class="content">
+		<div class="grid1" id="me">
+			<div class="welcome-photo">
+				<a class="welcome-photo1"><img id="me1" src="./images/g0.JPG" title="name" /></a>
+			</div>
+			<h3>Hi, I'm Keqiang Yan (严克强)</h3>
+			<p>This is my personal website. I'm currently a undergraduate intern in the Wangxuan Institute of Computer Technology of Peking University (<a target="_blank" href="http://www.icst.pku.edu.cn/">WICT</a>). I'm a member of the Spatial and Temporal Restoration, Understanding and Compression Team (<a target="_blank" href="http://www.icst.pku.edu.cn/struct/">STRUCT</a>) at WICT. </p>
+		</div>
+		<div class="grid3" id="experience">
+			<div class="grid3-header">
+				<h3>Experience</h3>
+				<br/>
+			</div>
+			<div class="grid3-content">
+				<div class="grid3-content">
+					<ul class="graid3-ul">
+						<li class="graid3-li">
+							Bachelor’s Degree in Artificial Intelligence Science and Technology (09/2016 - 07/2020)<br/>
+							School of Electronics Engineering and Computer Science, Peking University
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+		<div class="grid2" id="research">
+			<h3>Research</h3>
+			<p>My interest mainly lies in machine learning and computer vision, <br/>including general machine learning and machine learning applications 
+				such as text effect quality asessment.</p>
+		</div>
+		<div class="grid3">
+			<div class="grid3-header" id="publications">
+				<h3>Publication</h3>
+			</div>
+			<div class="grid3-content">
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/ICME.JPG">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Multitask Attentive Network For Text Effects Quality Assessment</div>
+					  <div class='paper-authors'><b>Keqiang Yan</b>, Shuai Yang, Wenjing Wang, Jiaying Liu</div>
+					  <div class='paper-venue'>ICME 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" >pdf</a>
+						<a class="btn btn-confirm" target="_blank" >sup</a>
+						<a class="btn btn-confirm" target="_blank" href="projects/TEA/index.html">project</a>
+					  </div>
+					</div>
+				</div>									
+			</div>			
+		</div>
+		<div class="grid3" id="honor" style="background:#ffffff">	
+			<div class="grid3-header" id="publications">
+				<h3>Activity</h3>
+				<br/>
+			</div>		
+			<div class="grid3-content">
+				<h3>Awards and Honors:</h3>
+				<ul class="graid3-ul">
+					<li class="graid3-li"> Award for Scientific Research, Peking University, 2019.
+					</li>
+					<li class="graid3-li"> Award for Academic Study, Peking University, 2018.
+					</li>				
+				</ul>
+				<br/>
+			</div>
+		</div>		
+		
+		<div class="grid2" id="contact">
+			<h3>Contact</h3>	
+			<div class="grid2-content">
+				<p>Email: yankeqiang AT pku.edu.cn</p>			
+			</div>			
+		</div>
+		<div class="footer">
+			<p>2019 Keqiang Yan. Powered by <a href="http://w3layouts.com/">w3layouts</a>, <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a>, <a href="http://getbootstrap.com/2.3.2/">bootstrap</a>, <a href="http://isotope.metafizzy.co/">Isotope</a></p>
+		</div>
+	</div>
+	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.banner.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>		
+		<script type="text/javascript" src="js/jquery.isotope.js"></script>	
+		<script type="text/javascript" src="js/main.js"></script>
+			
+	</body>
+</html>
