@@ -1,6 +1,6 @@
 news:
 
-- title: "We won the 3rd place of <a href='https://opencatalystproject.org/challenge.html/'>Open Catalyst Challenge 2021!</a>"
+- title: "We won the 3rd place of <a href='https://opencatalystproject.org/challenge.html/'>Open Catalyst Challenge 2021</a>!"
   date: "12/2021"
 
 - title: "Our paper <a href='https://jmlr.org/papers/v22/21-0343.html'>DIG: A Turnkey Library for Diving into Graph Deep Learning Research</a> has been accepted to <b>JMLR</b>."
@@ -9,7 +9,7 @@ news:
 - title: "Our paper <a href='https://arxiv.org/pdf/2102.01189.pdf'>GraphDF: A Discrete Flow Model for Molecular Graph Generation</a> has been accepted to <b>ICML2021</b>!"
   date: "04/2021"
 
-- title: "Our paper <a href='https://arxiv.org/abs/2102.00546'>GraphEBM: Molecular Graph Generation with Energy-Based Models</a> has been accepted to EBM Workshop at ICLR2021!"
+- title: "Our paper <a href='https://arxiv.org/abs/2102.00546'>GraphEBM: Molecular Graph Generation with Energy-Based Models</a> has been accepted to <b>EBM Workshop at ICLR2021</b>!"
   date: "04/2021"
   
 
