@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Paul J. Wright | Using Deep Learning to Monitor the Sun’s Ultraviolet Emission</title>
+  <meta name="description" content="Homepage of Paul Wright">
+  <meta name="author" content="Paul J. Wright">
+  <meta name="description" content="I am a Postdoctoral Fellow in the W. W. Hansen Experimental Physics Lab at Stanford University. My research interests are in the application of machine learning in heliophysics."/>
+  <meta name="keywords" content="Paul, James, Wright, J., Paul Wright, Paul James Wright, Paul J. Wright, paul j. wright, paul j wright, machine learning, Machine Learning, physics, Physics, solar, Solar, sun, Sun, Harvard, Stanford, Glasgow, Southampton"/>
+  <meta property="og:title" content="Paul J. Wright"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://www.pauljwright.co.uk"/>
+  <meta property="og:site_name" content="Paul J. Wright"/>
+  <link rel="canonical" href="http:/www.pauljwright.co.uk" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/libs/external/github-prettify-theme.css>-->
+  <script src=/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href=/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/libs/icon.png>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/"><img class="u-max-full-width" src='/assets/profile-pics/pjwright_photo_2020.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>Paul J. Wright</h1>
+            <p>Postdoc, Stanford University</p>
+            <p>paul [AT] pauljwright.co.uk</p>
+            <p>
+              <span onclick="window.open('https://twitter.com/pauljwright')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://www.linkedin.com/in/pauljwright91')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://github.com/pauljwright')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://orcid.org/0000-0001-9021-611X')" style="cursor: pointer">
+                <i class="ai ai-orcid" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://scholar.google.co.uk/citations?user=AcyTEx8AAAAJ&hl=en')" style="cursor: pointer">
+                <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://ui.adsabs.harvard.edu/#search/q=orcid%3A0000-0001-9021-611X&sort=date%20desc%2C%20bibcode%20desc&p_=0')" style="cursor: pointer">
+                <i class="ai ai-ads-square" aria-hidden="true"></i>
+              </span>
+
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/index.html>Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#bio>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#news>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
+          <!--<li class="navbar-item"><a class="navbar-link" href=/index.html#projects>Projects</a></li>-->
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#resume>Résumé</a></li>
+
+          <!-- right hand side: -->
+          <!--<li class="navbar-item-right"><a class="navbar-link-right" href=/learning.html>
+
+          <span style="color:#8c1515;">C</span><span style="color:#8b1414;">o</span><span style="color:#8b1313;">n</span><span style="color:#8a1111;">t</span><span style="color:#8a1010;">i</span><span style="color:#890f0f;">n</span><span style="color:#880e0e;">u</span><span style="color:#880c0c;">e</span><span style="color:#870b0b;">d</span><span style="color:#870a0a;"> </span><span style="color:#860909;">L</span><span style="color:#860707;">e</span><span style="color:#850606;">a</span><span style="color:#840505;">r</span><span style="color:#840404;">n</span><span style="color:#830202;">i</span><span style="color:#830101;">n</span><span style="color:#820000;">g</span>-->
+
+
+          <li class="navbar-item-right"><a class="navbar-link-right" href=/projects.html>
+          <span style="color:#44a340;">P</span><span style="color:#3f9b3c;">r</span><span style="color:#399238;">o</span><span style="color:#348a34;">j</span><span style="color:#2e812f;">e</span><span style="color:#29792b;">c</span><span style="color:#237027;">t</span><span style="color:#1e6823;">s</span>
+          </a></li>
+
+          <!--<li class="navbar-item-right"><a class="navbar-link-right" href=/reading.html>📓</a></li>-->
+
+          <!--<li class="navbar-item-right"><a class="navbar-link-right" href=/blog.html>Blog</a></li>-->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+
+  
+  	<h3>Using Deep Learning to Monitor the Sun’s Ultraviolet Emission</h3>
+  
+
+  <p><strong>This is slightly modified from the original press-release by the SETI Institute on October 2, 2019</strong> (<a href="https://www.seti.org/press-release/nasa-frontier-development-lab-uses-deep-learning-monitor-suns-ultraviolet-emission">see the press coverage here</a>).</p>
+
+<p><em>October 2, 2019, Mountain View, CA</em> – A NASA Frontier Development Lab (FDL) team has shown that by using deep learning, it’s possible to virtually monitor the Sun’s extreme ultraviolet (EUV) irradiance, which is a driver of space weather. 
+The Sun is vital for survival, but solar flares, which typically occur a few times a year, have the potential to cause severe disruptions in space and on Earth. 
+These disruptions could impact spacecraft, satellites and even systems here on Earth, including GPS and radio communications. 
+Deep learning can help get more value out of the current ability to monitor the Sun by providing virtual instruments to supplement physical devices. 
+This research was recently published in Science Advances on October 2, 2019 (<a href="https://advances.sciencemag.org/content/5/10/eaaw6548"><em>A Deep Learning Virtual Instrument for Monitoring Extreme UV Solar Spectral Irradiance</em></a>).</p>
+
+<p>“Our research shows how a deep neural network can be trained to mimic an instrument on the Solar Dynamics Observatory (SDO),” said  FDL team member and co-author Alexander Szenicer (Oxford University). 
+“By inferring what ultraviolet radiation levels that sensor would have detected based on what the other instruments on SDO are observing at any given time, we demonstrate it is possible to increase scientific productivity of NASA missions and to increase our capability to monitor solar sources of space weather.”</p>
+
+<p>FDL is a partnership between NASA Ames Research Center, the SETI Institute and private sector and space agency partners including Google Cloud, Intel AI, IBM, Kx, Lockheed Martin, Luxembourg Space Agency, NVIDIA, Canadian Space Agency, HPE, and Element AI. 
+During an 8-week summer research accelerator, interdisciplinary teams comprised of early-career researchers in AI and natural science domains work together to apply AI and machine learning to address important challenge questions. 
+The challenge question that triggered this research was to develop an AI model using SDO images to predict solar spectral irradiance.</p>
+
+<p>Traditionally, methods for monitoring solar EUV spectral irradiance include physics-inspired models that attempt to predict EUV emission.
+These use either magnetic field distributions on the Sun’s surface or physics-based inversions of the plasma distribution in the Sun’s corona (see <a href="2018_DeepEM">DeepEM</a>). <strong>These new results show it is possible to use imaging observations of the Sun (256 x 256 x 9) to create a proxy measurement of EUV spectral irradiance (14 x 1). 
+Feeding coronal images from NASA’s SDO to a deep neural network allows us to generate proxy EUV measurements with an accuracy that surpasses physics-based models.</strong></p>
+
+<p>Additionally, the team developed benchmarks and protocols for comparing model predictions between EUV models. 
+These will be useful for future studies. 
+Thus far, research has barely scratched the surface on what’s feasible by combining deep learning with large-scale scientific space data. 
+Data science and machine learning will play increasingly important roles in our endeavor to understand the origins of space weather and how to live with the Sun.</p>
+
+<p>The lead authors on the paper are Szenicer and David Fouhey (University of Michigan). 
+Co-authors and FDL team members are Richard Galvez (New York University), Rajat Thomas (University of Amsterdam) and Paul Wright (Stanford University). 
+Co-authors and team mentors are Meng Jin (SETI Institute), Mark Cheung (Lockheed Martin Solar and Astrophysics Laboratory) and Andres Munoz-Jaramillo (Southwest Research Institute).</p>
+
+<p><strong>Reference</strong>: A. Szenicer, D. F. Fouhey, A. Munoz-Jaramillo, P. J. Wright, R. Thomas, R. Galvez, M. Jin,
+M. C. M. Cheung, <a href="https://advances.sciencemag.org/content/5/10/eaaw6548">A deep learning virtual instrument for monitoring extreme UV solar spectral
+irradiance</a>. Sci. Adv. 5, eaaw6548 (2019).
+<br /></p>
+<figure class="image">
+  <img src="../assets/projects/2019_SA/aaw6548_Figure_fig2_seq2_v1.png" alt="Figure" style="width: 95%" />
+  <figcaption><b>Proposed Neural Network Architecture</b>. <i>After computing summary statistics of the input images and making a prediction via a linear model, a convolutional neural network makes a
+prediction that corrects this linear model. The combined linear+CNN model is shown in bold colors
+and arrows. <br /> <br />
+
+The numbers attached to the boxes denote the sizes of the representations of the data as it goes
+through the network, e.g. the first block annotated with 256, 256 and 9 represents an input of 256x256
+pixels and 9 channels. We produce spatially resolved maps in units of irradiance to validate how the
+CNN is operating by rearranging commutative operations in the last two layers of the
+CNN (blue dashed path) and the linear model (red dashed path). These operations yield identical
+outputs as the original (bold) model (illustrated with faint vertical lines), but recasting them this way
+enable the diagnosis of the model’s operation. </i> </figcaption>
+</figure>
+<p><br /></p>
+
+<hr />
+
+<p><strong>About the NASA Frontier Development Lab (FDL)</strong><br />
+Hosted in Silicon Valley by the SETI Institute, NASA FDL is an applied artificial intelligence research accelerator developed in partnership with NASA’s Ames Research Center.  Founded in 2016, the NASA FDL aims to use AI technologies to challenges in space exploration by pairing machine learning expertise with space science and exploration researchers from academia and industry. These interdisciplinary teams address tightly defined problems and the format encourages rapid iteration and prototyping to create outputs with meaningful application to the space program and humanity.</p>
+
+<p><strong>About the SETI Institute</strong><br />
+Founded in 1984, the SETI Institute is a non-profit, multi-disciplinary research and education organization whose mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Our research encompasses the physical and biological sciences and leverages expertise in data analytics, machine learning and advanced signal detection technologies. The SETI Institute is a distinguished research partner for industry, academia and government agencies, including NASA and NSF.</p>
+
+<!--**Contact information**
+
+**James Parr **  <br>
+FDL Executive Producer  <br>
+ Frontier Development Lab  <br>
+ james@frontierdevelopmentlab.org  <br>
+[ www.frontierdevelopmentlab.org ](https:// www.frontierdevelopmentlab.org )
+
+**Rebecca McDonald**  <br>
+ Director of Communications  <br>
+SETI Institute   <br>
+189 Bernardo Ave., Suite 200   <br>
+Mountain View, CA 94043  <br>
+ rmcdonald@seti.org   <br>
+[www.seti.org](https://www.seti.org)-->
+
+
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="three columns">
+          <b>Paul J. Wright</b>, PhD
+        </div>
+        <div class="six columns">
+          <!-- paul [AT] pauljwright.co.uk -->
+          based on the template by <a href="http://web.media.mit.edu/~msaveski">Martin Saveski</a>
+        </div>
+        <div class="three columns">
+          <span onclick="window.open('https://twitter.com/pauljwright')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://www.linkedin.com/in/pauljwright91')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://github.com/pauljwright')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43061476-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

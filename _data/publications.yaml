@@ -1,0 +1,44 @@
+papers:
+
+
+  - title: "GraphDF: A Discrete Flow Model for Molecular Graph Generation"
+    authors: "Youzhi Luo, <b>Keqiang Yan</b>, and Shuiwang Ji"
+    venue: "International Conference on Machine Learning (<b>ICML</b>), 2021"
+    paper_pdf: "https://arxiv.org/pdf/2102.01189.pdf"
+    code: "https://github.com/divelab/DIG/tree/dig-stable/examples/ggraph/GraphDF"
+    img: "/assets/imgs/df.png"
+    selected: y
+
+  - title: "GraphEBM: Molecular Graph Generation with Energy-Based Models"
+    authors: "Meng Liu, <b>Keqiang Yan</b>, Bora Oztekin, and Shuiwang Ji"
+    venue: "<b>EBM Workshop at ICLR</b>, 2021"
+    paper_pdf: "https://arxiv.org/abs/2102.00546"
+    code: "https://github.com/divelab/DIG/blob/dig/examples/ggraph/GraphEBM"
+    img: "/assets/imgs/graphebm_training.png"
+    selected: y
+
+  - title: "DIG: A Turnkey Library for Diving into Graph Deep Learning Research"
+    authors: "Meng Liu*, Youzhi Luo*, Limei Wang*, Yaochen Xie*, Hao Yuan*, Shurui Gui*, Haiyang Yu*, Zhao Xu, Jingtun Zhang, Yi Liu, <b>Keqiang Yan</b>, Haoran Liu, Cong Fu, Bora Oztekin, Xuan Zhang, and Shuiwang Ji"
+    venue: "Journal of Machine Learning Research (<b>JMLR</b>), 2021"
+    paper_pdf: "https://jmlr.org/papers/v22/21-0343.html"
+    code: "https://github.com/divelab/DIG"
+    code_star: "https://img.shields.io/github/stars/divelab/DIG?style=social"
+    documentation: "https://diveintographs.readthedocs.io/en/latest/"
+    img: "/assets/imgs/DIG-logo.jpg"
+    selected: y
+    
+  - title: "Multitask Attentive Network For Text Effects Quality Assessment"
+    authors: "Keqiang Yan, Shuai Yang, Wenjing Wang and Jiaying Liu"
+    venue: "International Conference on Multimedia and Expo (<b>ICME</b>), 2020"
+    paper_pdf: "https://ieeexplore.ieee.org/iel7/9099125/9102711/09102871.pdf"
+    img: "/assets/imgs/multi.png"
+    selected: n
+    
+
+    
+
+    
+    
+    
+
+
