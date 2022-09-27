@@ -1,5 +1,12 @@
 papers:
 
+  - title: "Periodic Graph Transformers for Crystal Material Property Prediction"
+    authors: "<b>Keqiang Yan</b>, Yi Liu, Yuchao Lin and Shuiwang Ji"
+    venue: "Thirty-sixth Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2022"
+    paper_pdf: "https://arxiv.org/abs/2209.11807"
+    code: "https://github.com/divelab/DIG/"
+    img: "/assets/imgs/matformer.png"
+    selected: y
 
   - title: "GraphDF: A Discrete Flow Model for Molecular Graph Generation"
     authors: "Youzhi Luo, <b>Keqiang Yan</b>, and Shuiwang Ji"
