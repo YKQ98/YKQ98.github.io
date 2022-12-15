@@ -1,0 +1,34 @@
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4><b>MULTITASK ATTENTIVE NETWORK FOR TEXT EFFECTS QUALITY ASSESSMENT</b></h4>
+  <p>
+    Along with the fast development of image style transfer, large amounts of style transfer algorithms were proposed. 
+    However, not enough attention has been paid to assess the quality of stylized images, which is of great value in 
+    allowing users to efficiently search for high quality images as well as guiding the designing of style transfer algorithms. 
+    In this paper, we focus on artistic text stylization and build a novel deep neural network equipped with multitask learning 
+    and attention mechanism for text effects quality assessment. 
+    We first select stylized images from TE141K dataset and then collect the corresponding visual scores from users. 
+    Then through multitask learning, the network learns to extract features related to both style and content information. 
+    Furthermore, we employ an attention module to simulate the process of human high-level visual judgement. 
+    Experimental results demonstrate the superiority of our network in achieving a high judgement accuracy over the state-of-the-art methods.</p>
+</div>
+<div class="figure">
+    <img src='framework.png' width="100%">
+</div>
+<p> Overview of our proposed quality assessment pipeline. The content and style encoders are first obtained by multitask pretraining, and then used for attention quality assessment.</p>
+<div class="figure">
+    <img src='human_score.png' width="80%">
+</div>
+<p> Some examples of content images, style images, target images, and corresponding human-labeled quality scores.</p>
+
+<div class="figure">
+    <img src='attention.png' width="80%">
+</div>
+
+<p> Visualization of learned attention maps.</p>
+
+<div class="figure">
+    <img src='prediction.png' width="100%">
+</div>
+
+<p> Obtained prediction scores and corresponding ground truth scores.</p>
