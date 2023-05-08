@@ -1,6 +1,9 @@
 news:
+- title: "Our paper Efficient Approximations of Complete Interatomic Potentials for Crystal Property Prediction has been accepted to <b>ICML 2023</b>."
+  date: "05/2023"
+
 - title: "Our paper <a href='https://arxiv.org/abs/2209.11807'>Periodic Graph Transformers for Crystal Material Property Predictionh</a> has been accepted to <b>NeurIPS 2022</b>!"
-  date: "09/2021"
+  date: "09/2022"
 
 - title: "We won the 3rd place of <a href='https://opencatalystproject.org/challenge.html'>Open Catalyst Challenge 2021</a>!"
   date: "12/2021"
