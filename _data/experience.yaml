@@ -7,11 +7,11 @@ experiences:
   category: "school"
   
   
-# - place: "Meta AI"
-#   time: "Summer 2022"
-#   title: "Research Intern"
-#   subtitle: "Mentor: <a href='https://www.linkedin.com/in/xing-wang-49369620'>Xing Wang</a>"
-#   category: "work"
+- place: "Microsoft AI4Science, Redmond"
+  time: "Summer 2023"
+  title: "Research Intern"
+  subtitle: "Mentor: Jake Smith"
+  category: "work"
   
 # - place: "Fujitsu Research of America"
 #   time: "Summer 2021"
