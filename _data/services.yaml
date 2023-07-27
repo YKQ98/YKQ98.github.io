@@ -2,10 +2,13 @@
 reviewers:
 
  - venue: "Annual Conference on Neural Information Processing Systems (<b>NeurIPS</b>)"
-   year: "2022"
+   year: "2022, 2023"
 
  - venue: "International Conference on Machine Learning (<b>ICML</b>)"
-   year: "2022"
+   year: "2022, 2023"
+
+ - venue: "International Conference on Learning Representations (<b>ICLR</b>)"
+   year: "2023"
    
  - venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)"
    year: ""
