@@ -53,7 +53,7 @@ papers:
     venue: "International Conference on Machine Learning (<b>ICML</b>), 2021"
     paper_pdf: "https://arxiv.org/pdf/2102.01189.pdf"
     code: "https://github.com/divelab/DIG/tree/dig-stable/examples/ggraph/GraphDF"
-    img: "/assets/imgs/df.jpg"
+    img: "/assets/imgs/df.png"
     selected: y
 
   - title: "GraphEBM: Molecular Graph Generation with Energy-Based Models"
