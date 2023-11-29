@@ -35,9 +35,9 @@ papers:
   - title: "Efficient Approximations of Complete Interatomic Potentials for Crystal Property Prediction"
     authors: "Yuchao Lin, <b>Keqiang Yan</b>, Youzhi Luo, Yi Liu, Xiaoning Qian and Shuiwang Ji"
     venue: "Fortieth International Conference on Machine Learning (<b>ICML</b>), 2023"
-    paper_pdf: "https://arxiv.org/abs/2209.11807"
-    code: "https://github.com/divelab/DIG/"
-    img: "/assets/imgs/matformer.png"
+    paper_pdf: "https://arxiv.org/pdf/2306.10045.pdf"
+    code: "https://github.com/divelab/AIRS"
+    img: "/assets/imgs/potnet.png"
     selected: y
 
   - title: "Periodic Graph Transformers for Crystal Material Property Prediction"
