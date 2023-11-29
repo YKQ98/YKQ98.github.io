@@ -5,6 +5,7 @@ papers:
     venue: "Learning on Graphs Conference (<b>LoG</b>), 2023"
     paper_pdf: "https://openreview.net/forum?id=MBZVrtbi06"
     code: "https://github.com/divelab/AIRS"
+    img: "/assets/imgs/latentdiff.png"
     selected: y
     
   - title: "Examining graph neural networks for crystal structures: limitations and opportunities for capturing periodicity"
@@ -12,6 +13,7 @@ papers:
     venue: "Science Advances"
     paper_pdf: "https://www.science.org/doi/pdf/10.1126/sciadv.adi3245"
     code: "https://www.science.org/doi/pdf/10.1126/sciadv.adi3245"
+    img: "/assets/imgs/capture_period.png"
     selected: y
 
   - title: "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems"
@@ -19,6 +21,7 @@ papers:
     venue: "under review"
     paper_pdf: "https://arxiv.org/pdf/2307.08423.pdf"
     code: "https://github.com/divelab/AIRS"
+    img: "/assets/imgs/airs.png"
     selected: y
 
   - title: "Large Scale Benchmark of Materials Design Methods"
@@ -26,6 +29,7 @@ papers:
     venue: "under review"
     paper_pdf: "https://arxiv.org/pdf/2306.11688.pdf"
     code: "https://pages.nist.gov/jarvis_leaderboard/"
+    img: "/assets/imgs/jarvis.png"
     selected: y
 
   - title: "Efficient Approximations of Complete Interatomic Potentials for Crystal Property Prediction"
