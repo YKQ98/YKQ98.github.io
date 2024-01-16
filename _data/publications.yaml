@@ -1,5 +1,13 @@
 papers:
 
+  - title: "Complete and Efficient Graph Transformers for Crystal Material Property Prediction"
+    authors: "<b>Keqiang Yan</b>, Cong Fu, Xiaofeng Qian, Xiaoning Qian and Shuiwang Ji"
+    venue: "(<b>ICLR</b>), 2024"
+    paper_pdf: "https://openreview.net/forum?id=BnQY9XiRAS"
+    code: "https://github.com/divelab/AIRS"
+    img: "/assets/imgs/Comformer.png"
+    selected: y
+
   - title: "A Latent Diffusion Model for Protein Structure Generation"
     authors: "Cong Fu*, <b>Keqiang Yan*</b>, Limei Wang, Wing Yee Au, Michael McThrow, Tao Komikado, Koji Maruhashi, Kanji Uchino, Xiaoning Qian and Shuiwang Ji"
     venue: "Learning on Graphs Conference (<b>LoG</b>), 2023"
