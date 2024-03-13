@@ -1,13 +1,5 @@
 papers:
 
-  - title: "Large Scale Benchmark of Materials Design Methods"
-    authors: "Kamal Choudhary, Daniel Wines, Kangming Li, Kevin F Garrity, Vishu Gupta, Aldo H Romero, Jaron T Krogel, Kayahan Saritas, Addis Fuhr, Panchapakesan Ganesh, Paul RC Kent, <b>Keqiang Yan</b>, ..., Andrew Dale Rohskopf, Jason Hattrick-Simpers, Shih-Han Wang, Luke EK Achenie, Hongliang Xin, Maureen Williams, Adam J Biacchi, Francesca Tavazza"
-    venue: "Npj Computational Materials"
-    paper_pdf: "https://arxiv.org/pdf/2306.11688.pdf"
-    code: "https://pages.nist.gov/jarvis_leaderboard/"
-    img: "/assets/imgs/jarvis.png"
-    selected: y
-
   - title: "Complete and Efficient Graph Transformers for Crystal Material Property Prediction"
     authors: "<b>Keqiang Yan</b>, Cong Fu, Xiaofeng Qian, Xiaoning Qian and Shuiwang Ji"
     venue: "(<b>ICLR</b>), 2024"
@@ -22,6 +14,14 @@ papers:
     paper_pdf: "https://openreview.net/forum?id=MBZVrtbi06"
     code: "https://github.com/divelab/AIRS"
     img: "/assets/imgs/latentdiff.png"
+    selected: y
+
+  - title: "Large Scale Benchmark of Materials Design Methods"
+    authors: "Kamal Choudhary, Daniel Wines, Kangming Li, Kevin F Garrity, Vishu Gupta, Aldo H Romero, Jaron T Krogel, Kayahan Saritas, Addis Fuhr, Panchapakesan Ganesh, Paul RC Kent, <b>Keqiang Yan</b>, ..., Andrew Dale Rohskopf, Jason Hattrick-Simpers, Shih-Han Wang, Luke EK Achenie, Hongliang Xin, Maureen Williams, Adam J Biacchi, Francesca Tavazza"
+    venue: "Npj Computational Materials"
+    paper_pdf: "https://arxiv.org/pdf/2306.11688.pdf"
+    code: "https://pages.nist.gov/jarvis_leaderboard/"
+    img: "/assets/imgs/jarvis.png"
     selected: y
     
   - title: "Examining graph neural networks for crystal structures: limitations and opportunities for capturing periodicity"
