@@ -1,5 +1,13 @@
 papers:
 
+  - title: "A Space Group Symmetry Informed Network for O(3) Equivariant Crystal Tensor Prediction"
+    authors: "<b>Keqiang Yan</b>, Alexandra Saxton, Xiaofeng Qian, Xiaoning Qian, Shuiwang Ji"
+    venue: "(<b>ICML</b>), 2024"
+    paper_pdf: ""
+    code: "https://github.com/divelab/AIRS"
+    img: "/assets/imgs/GMTNet.png"
+    selected: y
+
   - title: "Complete and Efficient Graph Transformers for Crystal Material Property Prediction"
     authors: "<b>Keqiang Yan</b>, Cong Fu, Xiaofeng Qian, Xiaoning Qian and Shuiwang Ji"
     venue: "(<b>ICLR</b>), 2024"
